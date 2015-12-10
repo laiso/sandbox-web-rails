@@ -2,12 +2,16 @@ source 'https://rubygems.org'
 
 gem 'rails', github: "rails/rails", branch: "master"
 gem 'arel', github: "rails/arel", branch: "master"
+
+gem 'sprockets', github: "rails/sprockets", branch: "master"
+gem 'sprockets-rails', github: "rails/sprockets-rails", branch: "master"
+
 gem 'rack', github: "rack/rack", branch: "master"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+#gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
